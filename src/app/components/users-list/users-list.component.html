@@ -1,0 +1,8 @@
+<div class="container">
+  @for (user of users; track user.name) {
+  <div class="card">
+    <div class="card__name">{{ user.name }}</div>
+    <div class="card__email">{{ user.email }}</div>
+  </div>
+  }
+</div>
